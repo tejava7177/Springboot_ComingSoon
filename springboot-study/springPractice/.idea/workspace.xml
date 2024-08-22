@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111a80fc-ea57-41e2-8136-494fdc77660b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/member_new.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/comingSoonPrac/springDeveloper/member_newRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="111a80fc-ea57-41e2-8136-494fdc77660b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,12 +55,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/simjuheun/Desktop/springboot-study/springPractice"
+    "last_opened_file_path": "/Users/simjuheun/Desktop/Springboot_ComingSoon/springboot-study/springPractice",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.comingSoonPrac.springDeveloper.Application" />
+      <module name="org.comingSoonPrac.springPractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.comingSoonPrac.springDeveloper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.comingSoonPrac.Main" />
       <module name="springPractice.main" />
       <extension name="coverage">
         <pattern>
@@ -95,9 +89,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
