@@ -10,7 +10,7 @@ function signup() {
     }
 
     // 백엔드로 회원가입 요청 (Fetch API 사용 예시)
-    fetch('/api/blackjack/signup', {
+    fetch('http://localhost:8080/api/blackjack/signup', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
