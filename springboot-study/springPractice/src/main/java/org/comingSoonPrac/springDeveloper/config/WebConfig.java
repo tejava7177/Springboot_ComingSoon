@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-                .allowedOrigins("file:///Users/simjuheun/Desktop/Springboot_ComingSoon/springboot-study/MadeGame-main/blackjack/index.html")  // 프론트엔드 URL
+                .allowedOrigins("http://localhost:3000")  // 프론트엔드 URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
                 .allowCredentials(true);
